@@ -16,7 +16,6 @@ public class ConnectionFactory {
 					System.getenv("JDBC_USERNAME"), 
 					System.getenv("JDBC_PASSWORD"));
 		} catch (SQLException e) {
-			//error
 			System.err.println("Error Code: " + e.getErrorCode());
 			System.err.println("SQL State: " + e.getSQLState());
 			throw new RuntimeException("Failed to get database connection");
