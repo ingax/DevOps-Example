@@ -10,7 +10,7 @@
 		http://tomcat.apache.org/maven-plugin-trunk/tomcat7-maven-plugin/usage.html		
 	  -->
 	<build>
-		<finalName>auto-ci</finalName>
+		<finalName>DevopsExample</finalName>
 		<pluginManagement>
 			<plugins>
 				<!-- Tomcat Maven Plugin  -->
